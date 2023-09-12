@@ -18,5 +18,9 @@ create tagのワークフローが存在する状態で、新しいブランチ�
 正規表現にマッチする想定のリリース用タグを作成しても、全ワークフロー未動作
 <https://github.com/hiren9630/gha-test/releases/tag/release_2023-09-11_3069e51>
 
-作成済みタグからリリースを作成しても、ワークフロー未動作
+Initial commitの作成済みタグからリリースを作成しても、ワークフロー未動作
 <https://github.com/hiren9630/gha-test/releases/tag/release_2023-09-11_3069e51>
+
+ワークフローを作成していたコミットにタグを作成するとpush tagも動作した。
+最初に作成したリリース時点のタグでは、ワークフローが未作成だったため、動作していなかった。
+<https://github.com/hiren9630/gha-test/actions/runs/6156443783>
