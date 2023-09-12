@@ -44,3 +44,26 @@ created releaseとpublished releaseとreleased releaseが動作
 <https://github.com/hiren9630/gha-test/actions/runs/6157224094>  
 <https://github.com/hiren9630/gha-test/actions/runs/6157224097>  
 <https://github.com/hiren9630/gha-test/actions/runs/6157224728>
+
+## Extra
+
+Release名によって、releasesの順番がどう並ぶのか確認
+
+Releaseを作成  
+<https://github.com/hiren9630/gha-test/actions/runs/6157352585>  
+<https://github.com/hiren9630/gha-test/actions/runs/6157352592>  
+<https://github.com/hiren9630/gha-test/releases/tag/release_2023-09-12_06d607b>  
+<https://github.com/hiren9630/gha-test/actions/runs/6157363601>  
+<https://github.com/hiren9630/gha-test/actions/runs/6157363612>  
+<https://github.com/hiren9630/gha-test/actions/runs/6157363615>
+
+Initial commitの作成済み（Releaseを作成していない方の）タグからLatestではない版のReleaseを作成  
+<https://github.com/hiren9630/gha-test/releases/tag/v1.0.0>
+
+draft Releaseをもう一つ作成  
+<https://github.com/hiren9630/gha-test/actions/runs/6157513756>  
+<https://github.com/hiren9630/gha-test/actions/runs/6157513764>  
+<https://github.com/hiren9630/gha-test/releases/tag/untagged-67650277b19a55c2f729>
+
+draft Releaseをもう一つ作成（タグは未作成）  
+<https://github.com/hiren9630/gha-test/releases/tag/untagged-33ede38bac603a1c4379>
