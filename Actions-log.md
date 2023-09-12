@@ -9,3 +9,5 @@ create-workflowsブランチを作成し、ブランチをpushしただけでcre
 
 create tagのワークフローが存在する状態で、新しいブランチを作成してpushすると毎回動作する模様  
 <https://github.com/hiren9630/gha-test/actions/runs/6154521556>
+
+作成（remote push）済みのブランチに新しくcommit pushしても特に動作しない
