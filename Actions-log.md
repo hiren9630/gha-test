@@ -32,6 +32,15 @@ draft Releasesを作成したが、ワークフロー未動作（リリースノ
 
 タグを作成し、Pre-Releasesを作成（リリースノートは自動生成）  
 <https://github.com/hiren9630/gha-test/actions/runs/6156710615>
-created releaseとpublished releaseが動作
-<https://github.com/hiren9630/gha-test/actions/runs/6156808572>
+created releaseとpublished releaseが動作  
+<https://github.com/hiren9630/gha-test/actions/runs/6156808572>  
 <https://github.com/hiren9630/gha-test/actions/runs/6156808587>
+
+リリース用タグを作成し、Releasesを作成（リリースノートは自動生成）  
+<https://github.com/hiren9630/gha-test/actions/runs/6157199502>  
+<https://github.com/hiren9630/gha-test/actions/runs/6157199512>  
+<https://github.com/hiren9630/gha-test/releases/tag/release_2023-09-12_8b2a55b>  
+created releaseとpublished releaseとreleased releaseが動作  
+<https://github.com/hiren9630/gha-test/actions/runs/6157224094>  
+<https://github.com/hiren9630/gha-test/actions/runs/6157224097>  
+<https://github.com/hiren9630/gha-test/actions/runs/6157224728>
