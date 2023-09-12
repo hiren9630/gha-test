@@ -11,3 +11,6 @@ create tagのワークフローが存在する状態で、新しいブランチ�
 <https://github.com/hiren9630/gha-test/actions/runs/6154521556>
 
 作成（remote push）済みのブランチに新しくcommit pushしても特に動作しない
+
+セマンティックバージョニングに基づいたタグを作成しても、全ワークフロー未動作
+<https://github.com/hiren9630/gha-test/releases/tag/v1.0.0>
