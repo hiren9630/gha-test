@@ -1,0 +1,15 @@
+name: release test
+
+on:
+  release:
+    types: 
+      - published
+      - created
+      - released
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'release test'
