@@ -17,3 +17,6 @@ create tagのワークフローが存在する状態で、新しいブランチ�
 
 正規表現にマッチする想定のリリース用タグを作成しても、全ワークフロー未動作
 <https://github.com/hiren9630/gha-test/releases/tag/release_2023-09-11_3069e51>
+
+作成済みタグからリリースを作成しても、ワークフロー未動作
+<https://github.com/hiren9630/gha-test/releases/tag/release_2023-09-11_3069e51>
