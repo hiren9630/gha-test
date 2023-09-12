@@ -1,0 +1,15 @@
+name: created release test
+
+on:
+  release:
+    types: [created]
+#- published リリース、プレリリース、またはリリースのドラフトが公開されました。
+#- created ドラフトが保存されたか、事前にドラフトとして保存されずにリリースまたはプレリリースが公開されました。
+#- released リリースが公開されたか、プレリリースがリリースに変更されました。
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'created release test'
