@@ -18,7 +18,7 @@ create tagのワークフローが存在する状態で、新しいブランチ�
 正規表現にマッチする想定のリリース用タグを作成しても、全ワークフロー未動作  
 <https://github.com/hiren9630/gha-test/releases/tag/release_2023-09-11_3069e51>
 
-Initial commitの作成済みタグからReleasesを作成しても、ワークフロー未動作  
+Initial commitの作成済みタグからReleaseを作成しても、ワークフロー未動作  
 <https://github.com/hiren9630/gha-test/releases/tag/release_2023-09-11_3069e51>
 
 ワークフローを作成していたコミットにタグを作成するとpush tagも動作  
@@ -27,16 +27,16 @@ Initial commitの作成済みタグからReleasesを作成しても、ワーク�
 <https://github.com/hiren9630/gha-test/actions/runs/6156443779>  
 <https://github.com/hiren9630/gha-test/actions/runs/6156443783>
 
-draft Releasesを作成したが、ワークフロー未動作（リリースノートは自動生成）  
+draft Releaseを作成したが、ワークフロー未動作（リリースノートは自動生成）  
 <https://github.com/hiren9630/gha-test/releases/tag/untagged-534a804bf43093e51732>
 
-タグを作成し、Pre-Releasesを作成（リリースノートは自動生成）  
+タグを作成し、Pre-Releaseを作成（リリースノートは自動生成）  
 <https://github.com/hiren9630/gha-test/actions/runs/6156710615>
 created releaseとpublished releaseが動作  
 <https://github.com/hiren9630/gha-test/actions/runs/6156808572>  
 <https://github.com/hiren9630/gha-test/actions/runs/6156808587>
 
-リリース用タグを作成し、Releasesを作成（リリースノートは自動生成）  
+リリース用タグを作成し、Releaseを作成（リリースノートは自動生成）  
 <https://github.com/hiren9630/gha-test/actions/runs/6157199502>  
 <https://github.com/hiren9630/gha-test/actions/runs/6157199512>  
 <https://github.com/hiren9630/gha-test/releases/tag/release_2023-09-12_8b2a55b>  
