@@ -28,3 +28,9 @@ Initial commitの作成済みタグからReleasesを作成しても、ワーク�
 
 draft Releasesを作成したが、ワークフロー未動作（リリースノートは自動生成）  
 <https://github.com/hiren9630/gha-test/releases/tag/untagged-534a804bf43093e51732>
+
+タグを作成し、Pre-Releasesを作成（リリースノートは自動生成）  
+<https://github.com/hiren9630/gha-test/actions/runs/6156710615>
+created releaseとpublished releaseが動作
+<https://github.com/hiren9630/gha-test/actions/runs/6156808572>
+<https://github.com/hiren9630/gha-test/actions/runs/6156808587>
